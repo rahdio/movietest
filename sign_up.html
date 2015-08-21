@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+    <script src="js/User_handling.js"></script>
+    
+  </head>
+  <body>
+    <div class="header">
+    <div class="nameLogo">
+      <p>tRonk Movies</p>
+    </div> 
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">  
+        <div class="main">
+        
+        </div>
+      </div>
+    </div>
+
+    <div class="supporting">
+      <div class="container">
+        
+        <div class="col">
+          <div id= "container" style ="width : 400px; margin :auto; border: auto; border-style : solid; padding: 10px">
+          
+          <h2><strong>New to this site?</strong> Sign up</h2>
+
+            <div class="field">
+              <input type="text" class="text-input" autocomplete="off" name="user[name]" id = "reg_first_name" maxlength="30" placeholder="First Name">
+            </div>
+
+            <div class="field">
+              <input type="text" class="text-input" autocomplete="off" name="user[name]" id = "reg_last_name" maxlength="30" placeholder="Last Name">
+            </div>
+            
+            <div class="field">
+              <input type="text" class="text-input email-input" autocomplete="off" name="user[email]" id = "reg_email" placeholder="Email">
+            </div>
+            
+            <div class="field">
+              <input type="password" class="text-input" name="user[user_password]" id = "reg_pass" placeholder="Password">
+            </div>
+
+            <div class="field">
+              <input type="address" class="text-input" name="user[user_address]" id ="reg_add" placeholder="Address">
+            </div>
+
+        <button type="submit" class="btn signup-btn u-floatRight" onclick = "regfunc()"> Sign up  </button>
+      </div>
+      <p id = "sign-up-error"></p>
+      </div>
+    </div>    
+  </div>    
+      
+    </div>
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="footer"></div>
+    
+  </body>
+</html>

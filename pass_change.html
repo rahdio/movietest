@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Change Password Page</title>
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/User_handling.js"></script>
+    
+  </head>
+  <body>
+    <div class="header">
+    <div class="nameLogo">
+      <p>tRonk Movies</p>
+    </div> 
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">  
+        <div class="main">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="supporting">
+      <div class="container">
+        
+        <div class="col">
+          
+          <div id= "container" style ="width : 400px; margin :auto; border: auto; border-style : solid; padding: 10px">
+            <h2>CHANGE PASSWORD</h2>
+
+                <input type="text" id="pass-change-email" class="text-input email-input" name="session[Email]" autocomplete="on"
+                placeholder="Email"  />
+                     
+                <br/><br/>
+              
+                <input type="text" id="old-password" class="text-input email-input" name="session[old_password]" autocomplete="on"
+                placeholder="Old Password"  />
+                     
+                <br/><br/>
+                  
+                <input type="password" id="new-password" class="text-input flex-table-input" name="session[new_password]" placeholder="New Password"/>
+                    
+                <br/><br/>
+
+                <button type="submit" id = "pass_reset" onclick = "changePassfunc()"> Reset Password  </button>
+          </div>
+            <p id = "changePass_msg"></p>
+          </div>
+        </div>    
+      </div>    
+      
+    </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="footer"></div>
+    
+  </body>
+</html>

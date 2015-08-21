@@ -1,0 +1,227 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+
+}
+
+      
+.jumbotron {
+  background: url(http://00.edu-cdn.com/files/static/family-movie-night/family-movie-night-banner.jpg) no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.header {
+  background-color: #333;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  border: 1px solid #333;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  display: inline-block;
+  margin-bottom: 20px;      
+}
+
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  margin: auto;
+  padding: auto;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+
+#deleteMovie, #editMovie, #borrowMovie, #returnMovie{
+  display: none;
+}
+
+
+
+.header .indepOptions {
+  float: right;
+  padding: 13px;
+}
+
+.header .nameLogo{
+  float: left;
+  padding: 0px;
+  font-family: Cursive;
+  font-size: 15px
+}
+.indepOptions a{
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  margin: 10px;
+  padding: 10 30px;
+}
+
+.center {
+  text-align: center;
+  width: 100%;
+  height: 87%;
+  margin: auto;
+  border: 1px solid #000;
+  background: url(http://00.edu-cdn.com/files/static/family-movie-night/family-movie-night-banner.jpg) no-repeat center center;
+  background-size: cover;
+  overflow-y: scroll;
+}
+
+.center .internal {
+  margin: 10px;
+}
+
+select {
+  width: 30%;
+  height: 5%;
+}
+
+.center .internal{
+  margin-top: 15%;
+  margin-left: -10%;
+}
+
+#addContainer {
+  position: relative;
+  width: 15%;
+  top: -50%;
+  right: -83%;
+  border: 1px solid #fff;
+  display: none;
+  float: left;
+}
+
+#editContainer {
+  position: relative;
+  margin-left: 35%;
+  width: 20%;
+  display: none;
+}
+
+#editContainer li{
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  width: 80%;
+}
+
+#editContainer label{
+  display: block;
+}
+
+#addContainer input {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+}
+
+#addContainer button, #editContainer button{
+  padding: 6px;
+  margin: 3px;
+  border-radius: 7%;
+}
+
+.dependent {
+  display: none;
+}
+
+.form-format {
+  margin: 100px auto;
+}
+
+.form-format input, select{
+  display: block;
+  margin: 10px auto;
+  padding: 7px;
+}
+
+ul {
+  list-style: none;
+}
+
+#categoryContainer {
+  overflow-y: scroll;
+  color: #199E5B;
+  background: rgba(255, 255, 255, 0.56);
+  width:50%;
+}
+
+#categoryContainer li{
+  margin: 10px;
+}
+
+#categoryContainer a, p{
+  color: #000000;
+  font-size: 20px;
+  padding: 4px;
+  border-radius: 5%;
+  margin: 5px
+}
